@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: initial;
+}
+body {
+  font-family: sans-serif;
+  max-width: 75%;
+  padding: 35px;
+}
+
+/* ==========================
+nav style start 
+============================= */
+
+.trk-nav svg{
+  height: 35px;
+  width: 120px;
+  margin: 0 10px;
+}
+.trk-nav a:link,
+a:visited {
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+  padding: 0;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.trk-nav #pills-tab a:hover,
+.trk-nav #pills-tab a.active {
+  color: black;
+  background-color: white;
+  border-bottom: 5px solid #9ecb4f;
+  border-radius: 0;
+}
+
+/* ==========================
+nav content style start 
+============================= */
+
+.trk-nav-content {
+  border-bottom: 1px solid #ccc;
+  min-height: 400px;
+  padding: 10px;
+}
+
+/* ===================================
+nav content-1 (OVERVIEW) style start 
+====================================== */
+
+.trk-nav-content-1__violations {
+  display: flex;
+  align-items: center;
+}
+
+.trk-nav-content-1__violations p {
+  margin-top: 15px;
+  text-transform: capitalize;
+  color: rgb(190, 60, 60);
+}
+
+.trk-nav-content-1__violations--red,
+.trk-nav-content-1__resellers--black {
+  background-color: rgb(190, 60, 60);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.trk-nav-content-1__resellers--black {
+  background-color: #444;
+}
+
+.trk-nav-content-1__resellers {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+.trk-nav-content-1__resellers div {
+  margin-right: 15px;
+  color: #555;
+}
+
+.trk-nav-content-1__table--scroll {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.trk-nav-content-1__table {
+  width: 100%;
+}
+
+.trk-nav-content-1__table th {
+  background: white;
+  top: 0;
+  position: sticky;
+  text-align: left;
+}
+
+.trk-nav-content-1__table th,
+.trk-nav-content-1__table td {
+  padding: 10px;
+}
+
+.trk-nav-content-1__table--col-1 {
+  width: 30%;
+}
+
+.trk-nav-content-1__table--col-2,
+.trk-nav-content-1__table--col-3,
+.trk-nav-content-1__table--col-4,
+.trk-nav-content-1__table--col-5,
+.trk-nav-content-1__table--col-6 {
+  width: 14%;
+}
+
+.trk-nav-content-1__table tr :nth-child(2),
+.trk-nav-content-1__table tr :nth-child(3),
+.trk-nav-content-1__table tr :nth-child(4),
+.trk-nav-content-1__table tr :nth-child(5),
+.trk-nav-content-1__table tr :nth-child(6) {
+  text-align: center;
+}
+
+/* =======================================
+nav content-2 (PRICE HISTORY) style start 
+========================================== */
+.trk-nav-content-2__resellers {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+.trk-nav-content-2__resellers div {
+  margin-right: 15px;
+}
+
+.trk-nav-content-2__resellers--avgprice {
+  margin-left: 5px;
+  color: #555;
+}
+
+.trk-nav-content-2__violations--red {
+  background-color: rgb(190, 60, 60);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.trk-nav-content-2__violations--text {
+  color: rgb(190, 60, 60);
+}
+
+.trk-nav-content-2__resellers--text {
+    color: #555;
+}
+
+.trk-nav-content-2__dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.trk-nav-content-2__dropdown--text {
+  flex: 1;
+}
+
+.trk-nav-content-2__dropdown--item {
+  display: flex;
+}
+
+.trk-nav-content-2__dropdown--item div {
+  margin-right: 15px;
+}
+
+.trk-nav-content-2__dropdown--item div button {
+  background-color: #fff;
+  color: #444;
+  border: 1px solid black;
+}
+
+.trk-nav-content-2__dropdown--item div button:focus {
+outline: none;
+}
+
+.trk-nav-content-2__dropdown--item div svg {
+  cursor: pointer;
+}
+
+/* =======================================
+nav content-3 (SALES VELOCITY) style start 
+========================================== */
+
+/* =======================================
+nav content-4 (REVIEWS) style start 
+========================================== */
+
+.marginbottom {
+  margin-top: 200px;
+}
