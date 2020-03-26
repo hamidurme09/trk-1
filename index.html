@@ -327,86 +327,97 @@
                       <span class="trk-nav-content-2__resellers--text">Price Variations</span>
                     </div>
               </div>
-              <hr>
-              <div class="trk-nav-content-2__dropdown">
 
-                <div class="trk-nav-content-2__dropdown--text">Product Pricing Chart</div>
-                <div class="trk-nav-content-2__dropdown--item">
+              <hr>
+
+              <div class="trk-nav-content-2__chartbar">
+                <div class="trk-nav-content-2__chartbar__text">Product Pricing Chart</div>
+                
+                <div class="trk-nav-content-2__chartbar__rightside">
+
                   <div class="dropdown">
-                    <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Monthly
-                    </button>
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </div>
-  
+
+            <!-- dropdown filter and Monthly start -->
                   <div class="dropdown">
-                    <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Filter
-                    </button>
+                    </a>
+
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <div>
-                        <div>
+                      <div class="trk-nav-content-2__chartbar__menu">
+                        <div class="trk-nav-content-2__chartbar__menu--item">
                           <span>Price range</span>
-                            <div class="">
-                              <input type="text" class="" placeholder="" value="10.00">
-                              <input type="text" class="" placeholder="" value="10.00">
+                            <div class="trk-nav-content-2__chartbar__menu--item--input">
+                              <input type="text" placeholder="" value="19.99">
+                              <input type="text" placeholder="" value="20.46">
+                            </div>
+                            <div class="trk-nav-content-2__chartbar__menu--item--range">
+                              <input type="range" class="" placeholder="" value="10.00">
+                              <input type="range" class="" placeholder="" value="10.00">
                             </div>
                         </div>
-                      </div>
-                        <div>
-                          <div>
+
+                          <div class="trk-nav-content-2__chartbar__menu--item">
                             <span>Price</span>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Remove 10X Outliers
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="checkbox" placeholder="" value="10.00">
+                                  <span>Remove 10X Outliers</span>
                               </div>
                           </div>
-                        </div>
-                        <div>
-                          <div>
-                            <span>Price</span>
-                              <div class="">
+
+                          <div class="trk-nav-content-2__chartbar__menu--item">
+                            <span>By status</span>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
                                 <input type="checkbox" class="" placeholder="" value="10.00">
-                                MAP Violation
+                                <span>MAP Violation</span>
                               </div>
-                              <div class="">
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
                                 <input type="checkbox" class="" placeholder="" value="10.00">
-                                Unauthorized Sellers
+                                <span>Unauthorized Sellers</span>
                               </div>
                           </div>
-                        </div>
-                        <div>
-                          <div>
+
+                          <div class="trk-nav-content-2__chartbar__menu--item">
                             <span>Data Display (per 24h period)</span>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Show Only Price Changes
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Only Price Changes</span>
                               </div>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Show All Price Checks
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show All Price Checks</span>
                               </div>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Show Most Recent Crawl
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Most Recent Crawl</span>
                               </div>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Show Lowest Price Crawl
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Lowest Price Crawl</span>
                               </div>
-                              <div class="">
-                                <input type="checkbox" class="" placeholder="" value="10.00">
-                                Show Average Price Crawl
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Average Price Crawl</span>
                               </div>
                           </div>
-                        </div>
-                        <div>Button</div>
-                    </div>
-                    </div>
+                      </div>
+                          <div>
+                            <div class="button-bg">
+                              <button type="submit" class="button button-login">Done</button>
+                            </div>
+                          </div>
+                        </div>                        
+                  </div>
+            <!-- dropdown filter and Monthly end -->
                   </div>
                   <div>
                     <?xml version="1.0" ?>
@@ -429,7 +440,7 @@
                   </div>
               </div>
               <hr>
-              <div class="trk-nav-content-2__dropdown">
+              <!-- <div class="trk-nav-content-2__dropdown">
 
                 <div class="trk-nav-content-2__dropdown--text">Product Pricing</div>
                 <div class="trk-nav-content-2__dropdown--item">
@@ -515,7 +526,7 @@
                         <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
                     </svg>
                   </div>
-                </div>
+                </div> -->
             </div>
               <!-- sales velocity end  -->
               <!-- reviews start  -->
