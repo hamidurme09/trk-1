@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./demo-2.css">
     
     <title>Document</title>
 </head>
 <body>
-<!-- nav bar start  -->
+
     <nav class="trk-nav" id="trk-navtop">
-        <div class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          
+        <div class="nav nav-pills mb-3" id="pills-tab" role="tablist">  
           <svg xmlns="http://www.w3.org/2000/svg" width="128.011" height="23.55" viewBox="0 0 128.011 23.55">
             <g id="Group_6" data-name="Group 6" transform="translate(-61.718 -276.75)">
               <g id="Group_2" data-name="Group 2" transform="translate(61.718 277.766)">
@@ -59,26 +58,19 @@
                 <path id="Path_36" data-name="Path 36" d="M396.274,330.4a2.015,2.015,0,0,1-.556,1.531,2.233,2.233,0,0,1-1.6.529h-1.131v-4.044h1.25a2.067,2.067,0,0,1,1.5.52A1.944,1.944,0,0,1,396.274,330.4Zm-.7.022q0-1.452-1.358-1.452h-.573V331.9h.47A1.3,1.3,0,0,0,395.577,330.417Z" transform="translate(-298.605 -328.208)" fill="#030004"/>
               </g>
             </g>
-          </svg>
-                
+          </svg>         
               <a class="nav-item nav-link active" id="pills-overview-tab" data-toggle="pill" href="#pills-overview" role="tab" aria-controls="pills-overview" aria-selected="true">overview</a>
               <a class="nav-item nav-link" id="pills-price-tab" data-toggle="pill" href="#pills-price" role="tab" aria-controls="pills-price" aria-selected="false">price history</a>
               <a class="nav-item nav-link" id="pills-sales-tab" data-toggle="pill" href="#pills-sales" role="tab" aria-controls="pills-sales" aria-selected="false">sales velocity</a>
               <a class="nav-item nav-link" id="pills-reviews-tab" data-toggle="pill" href="#pills-reviews" role="tab" aria-controls="pills-reviews" aria-selected="false">reviews/q&a</a>
         </div>
       </nav>
-<!-- nav bar end  -->
-
           <div class="trk-nav-content tab-content" id="pills-tabContent">
-            <!-- overview start  -->
-
             <div class="trk-nav-content-1 tab-pane fade show active" id="pills-overview" role="tabpanel" aria-labelledby="pills-overview-tab">
-
               <div class="trk-nav-content-1__violations">
                 <span class="trk-nav-content-1__violations--red">14</span>
                 <p>violations</p>
               </div>
-
               <div class="trk-nav-content-1__resellers">
                   <div><span class="trk-nav-content-1__resellers--black">45</span>Resellers:</div>
                   <div>41 FBA</div>
@@ -86,7 +78,7 @@
                   <div>15 Non-Authorized</div>
                   <div>30 Authorized</div>
               </div>
-                      <hr>
+                <hr>
               <div class="trk-nav-content-1__table--scroll">
                 <table class="trk-nav-content-1__table">
                   <thead>
@@ -311,166 +303,23 @@
                 </table>
               </div>
             </div>
-
-
-
-                             <!-- overview end  -->
-
-                            <!-- price history content-2 start  -->
             <div class="trk-nav-content-2 tab-pane fade" id="pills-price" role="tabpanel" aria-labelledby="pills-price-tab">
-                    <div class="trk-nav-content-2__resellers">
-                        <div>AVARAGE PRICE:<span class="trk-nav-content-2__resellers--avgprice">$155.00</span></div>
-                        <div>
-                          <div class="trk-nav-content-2__violations">
-                            <span class="trk-nav-content-2__violations--red">14</span>
-                            <span class="trk-nav-content-2__violations--text">Violations</span>
-                          </div>
-                        </div>
-                          <div><span class="trk-nav-content-1__resellers--black">45</span>
-                            <span class="trk-nav-content-2__resellers--text">Price Variations</span>
-                          </div>
-                    </div>
-
-                          <hr>
-
-                    <div class="trk-nav-content-2__chartbar">
-                      <div class="trk-nav-content-2__chartbar__text">Product Pricing Chart</div>
-                    
-                        <div class="trk-nav-content-2__chartbar__rightside">
-
-                          <div class="dropdown">
-                            <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Monthly
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </div>
-
-                          <!-- dropdown filter and Monthly start -->
-                      <div class="dropdown">
-                          <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Filter
-                          </a>
-
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <div class="trk-nav-content-2__chartbar__menu">
-
-                              <div class="trk-nav-content-2__chartbar__menu--item">
-                                <span>Price range</span>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--input">
-                                    <input type="text" placeholder="" value="19.99">
-                                    <input type="text" placeholder="" value="20.46">
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--range">
-                                    <input type="range" class="" placeholder="" value="10.00">
-                                    <input type="range" class="" placeholder="" value="10.00">
-                                  </div>
-                              </div>
-
-                              <div class="trk-nav-content-2__chartbar__menu--item">
-                                <span>Price</span>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="checkbox" placeholder="" value="10.00">
-                                      <span>Remove 10X Outliers</span>
-                                  </div>
-                              </div>
-
-                              <div class="trk-nav-content-2__chartbar__menu--item">
-                                <span>By status</span>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="checkbox" class="" placeholder="" value="10.00">
-                                    <span>MAP Violation</span>
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="checkbox" class="" placeholder="" value="10.00">
-                                    <span>Unauthorized Sellers</span>
-                                  </div>
-                              </div>
-
-                              <div class="trk-nav-content-2__chartbar__menu--item">
-                                <span>Data Display (per 24h period)</span>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="radio" name="price" placeholder="" value="10.00">
-                                    <span>Show Only Price Changes</span>
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="radio" name="price" placeholder="" value="10.00">
-                                    <span>Show All Price Checks</span>
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="radio" name="price" placeholder="" value="10.00">
-                                    <span>Show Most Recent Crawl</span>
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="radio" name="price" placeholder="" value="10.00">
-                                    <span>Show Lowest Price Crawl</span>
-                                  </div>
-                                  <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
-                                    <input type="radio" name="price" placeholder="" value="10.00">
-                                    <span>Show Average Price Crawl</span>
-                                  </div>
-                              </div>
-
-                              </div>
-                                  <div>
-                                    <div class="button-bg">
-                                      <button type="submit" class="button button-login">Done</button>
-                                    </div>
-                                  </div>
-
-                            </div>                        
-                        </div>
-                        <!-- dropdown filter and Monthly end -->
-                      </div>
-
-                      <div>
-                        <?xml version="1.0" ?>
-                        <svg fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
-                        </svg>
-                      </div>
-                  
-                    </div>
-                    <hr class="horizontal-line">
-                    <h1>Chart Loading...</h1>
-
-              </div>
-
-              <!-- price history content-2 end  -->
-
-              <!-- sales velocity content-3 start  -->
-            <div class="trk-nav-content-3 tab-pane fade" id="pills-sales" role="tabpanel"   aria-labelledby="pills-sales-tab">
               <div class="trk-nav-content-2__resellers">
-                <div>SELLER VALUE:<span class="trk-nav-content-2__resellers--avgprice">$155.00</span></div>
-                  <div><span class="trk-nav-content-1__resellers--black">45</span>
-                    <span class="trk-nav-content-2__resellers--text">Units Sold</span>
-                  </div>
-              </div>
-
-
-
-              <hr>
-
-              <div class="trk-nav-content-3__chartbar">
-                <div class="trk-nav-content-3__chartbar__text">Product Pricing Chart</div>
-                
-                <div class="trk-nav-content-3__chartbar__rightside">
-
-                  <div class="dropdown">
-                    <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Total Sales
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                  <div>AVARAGE PRICE:<span class="trk-nav-content-2__resellers--avgprice">$155.00</span></div>
+                  <div>
+                    <div class="trk-nav-content-2__violations">
+                      <span class="trk-nav-content-2__violations--red">14</span>
+                      <span class="trk-nav-content-2__violations--text">Violations</span>
                     </div>
                   </div>
-
-                <!-- dropdown filter and Monthly start -->
+                    <div><span class="trk-nav-content-1__resellers--black">45</span>
+                      <span class="trk-nav-content-2__resellers--text">Price Variations</span>
+                    </div>
+              </div>
+              <hr>
+              <div class="trk-nav-content-2__chartbar">
+                <div class="trk-nav-content-2__chartbar__text">Product Pricing Chart</div>
+                <div class="trk-nav-content-2__chartbar__rightside">
                   <div class="dropdown">
                     <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Monthly
@@ -479,175 +328,93 @@
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a>
-                    </div>                        
+                    </div>
                   </div>
-                <!-- dropdown filter and Monthly end -->
+                  <div class="dropdown">
+                    <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Filter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <div class="trk-nav-content-2__chartbar__menu">
+                        <div class="trk-nav-content-2__chartbar__menu--item">
+                          <span>Price range</span>
+                            <div class="trk-nav-content-2__chartbar__menu--item--input">
+                              <input type="text" placeholder="" value="19.99">
+                              <input type="text" placeholder="" value="20.46">
+                            </div>
+                            <div class="trk-nav-content-2__chartbar__menu--item--range">
+                              <input type="range" class="" placeholder="" value="10.00">
+                              <input type="range" class="" placeholder="" value="10.00">
+                            </div>
+                        </div>
+                          <div class="trk-nav-content-2__chartbar__menu--item">
+                            <span>Price</span>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="checkbox" placeholder="" value="10.00">
+                                  <span>Remove 10X Outliers</span>
+                              </div>
+                          </div>
+                          <div class="trk-nav-content-2__chartbar__menu--item">
+                            <span>By status</span>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="checkbox" class="" placeholder="" value="10.00">
+                                <span>MAP Violation</span>
+                              </div>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="checkbox" class="" placeholder="" value="10.00">
+                                <span>Unauthorized Sellers</span>
+                              </div>
+                          </div>
+                          <div class="trk-nav-content-2__chartbar__menu--item">
+                            <span>Data Display (per 24h period)</span>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Only Price Changes</span>
+                              </div>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show All Price Checks</span>
+                              </div>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Most Recent Crawl</span>
+                              </div>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Lowest Price Crawl</span>
+                              </div>
+                              <div class="trk-nav-content-2__chartbar__menu--item--checkbox">
+                                <input type="radio" name="price" placeholder="" value="10.00">
+                                <span>Show Average Price Crawl</span>
+                              </div>
+                          </div>
+                      </div>
+                          <div>
+                            <div class="button-bg">
+                              <button type="submit" class="button button-login">Done</button>
+                            </div>
+                          </div>
+                        </div>                        
+                  </div>
                   </div>
                   <div>
+                    <?xml version="1.0" ?>
                     <svg fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
                     </svg>
                   </div>
                 </div>
-
-
-
-                <div class="trk-nav-content-3__daterange--body">
-                  <h6>Date range:</h6>
-                  <div class="trk-nav-content-3__daterange">
-                      <div class="trk-nav-content-3__daterange__left">
-                        <input type="text" placeholder="Start Date" value="">
-                        <input type="text" placeholder="End Date" value="">
-                      </div>
-                      <span>or</span>
-                      <div class="trk-nav-content-3__daterange__right">
-                        <div class="dropdown">
-                          <a class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Last 7 Days
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Last 7 Days</a>
-                            <a class="dropdown-item" href="#">Last 30 Days</a>
-                            <a class="dropdown-item" href="#">Last 90 Days</a>
-                          </div>                        
-                        </div>
-                        <button type="submit" class="button-search">Search</button>
-                      </div>
-                  </div>
-                </div>
-
-                
-                <div class="trk-nav-content-3__searchbar">
-                    <div class="trk-nav-content-3__searchbar__left">
-                      <button type="submit" class="button-search">Search</button>
-                      <input type="text" placeholder="" value="">
-                    </div>
-
-                    <div class="trk-nav-content-3__searchbar__middle">
-                      <div class="trk-nav-content-3__searchbar__middle--toggle">
-                        <span>Toggle full-screen</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                          <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                            <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                            <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                          </g>
-                        </svg>
-                      </div>
-
-                      <div class="trk-nav-content-3__searchbar__middle--showhide">
-                        <span>Show/Hide Columns</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                          <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                            <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                            <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                          </g>
-                        </svg>
-                      </div>
-
-                    </div>
-  
-                    <div class="trk-nav-content-3__searchbar__middle__right">
-                      <span>Export</span>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                        <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                          <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                          <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                        </g>
-                      </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                        <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                          <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                          <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                        </g>
-                      </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                        <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                          <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                          <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                        </g>
-                      </svg>
-                    </div>
-
-                </div>
-
-                <hr class="horizontal-line">
-                <div class="trk-nav-content-3__table--scroll">
-                  <table class="trk-nav-content-3__table">
-                    <thead>
-                      <tr>
-                        <th class="trk-nav-content-3__table--col-1">SELLER NAME
-                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                            <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                              <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                              <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                            </g>
-                          </svg>
-                        </th>
-                        <th class="trk-nav-content-3__table--col-2">AUTHORIZED
-                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                            <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                              <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                              <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                            </g>
-                          </svg>
-                        </th>
-                        <th class="trk-nav-content-3__table--col-3"># OF PRODUCTS
-                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                            <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                              <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                              <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                            </g>
-                          </svg>
-                        </th>
-                        <th class="trk-nav-content-3__table--col-4">INVERTORY
-                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                            <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                              <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                              <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                            </g>
-                          </svg>
-                        </th>
-                        <th class="trk-nav-content-3__table--col-5">SALES
-                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
-                            <g id="Group_272" data-name="Group 272" transform="translate(-607 -302)">
-                              <path id="Polygon_6" data-name="Polygon 6" d="M9.293,2.793a2,2,0,0,1,3.413,0L20.14,14.957A2,2,0,0,1,18.434,18H3.566A2,2,0,0,1,1.86,14.957Z" transform="translate(607 302)" fill="#be3c3c"/>
-                              <text id="_" data-name="!" transform="translate(616 317)" fill="#fff" font-size="13" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">!</tspan></text>
-                            </g>
-                          </svg>
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>WorldKit</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                        <td>$175.00</td>
-                        <td>$15.00</td>
-                      </tr>
-    
-                      <tr>
-                        <td>WorldKit</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                        <td>$175.00</td>
-                        <td>$15.00</td>
-                      </tr>
-     
-                    </tbody>
-                  </table>
-                </div>
-                <hr class="horizontal-line">
-
-
-
-
               </div>
-
-              <!-- sales velocity end  -->
-              <!-- reviews start  -->
-<div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">reviews/q&a</div>
-              <!-- reviews end  -->
+            <div class="trk-nav-content-3 tab-pane fade" id="pills-sales" role="tabpanel" aria-labelledby="pills-sales-tab">
+              <div class="trk-nav-content-2__resellers">
+                <div>SELLER VALUE:<span class="trk-nav-content-2__resellers--avgprice">$155.00</span></div>
+                  <div><span class="trk-nav-content-1__resellers--black">45</span>
+                    <span class="trk-nav-content-2__resellers--text">Units Sold</span>
+                  </div>
+              </div>
+              <hr>
+            </div>
+            <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">reviews/q&a</div>
             </div>
           <script src="./bootstrap/js/jquery.js"></script> 
           <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 

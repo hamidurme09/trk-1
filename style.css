@@ -199,7 +199,7 @@ nav content-2 (PRICE HISTORY) style start
   margin-bottom: 10px;
 }
 
-.trk-nav-content-2__chartbar__menu > div:last-child{
+.trk-nav-content-2__chartbar__menu > div:last-child {
   margin-bottom: 0;
 }
 
@@ -310,10 +310,185 @@ nav content-2 (PRICE HISTORY) style start
 nav content-3 (SALES VELOCITY) style start 
 ========================================== */
 
+.trk-nav-content-3__chartbar {
+  display: flex;
+  align-items: center;
+}
+
+.trk-nav-content-3__chartbar__text {
+  flex: 1;
+}
+
+.trk-nav-content-3__chartbar__rightside {
+  display: flex;
+}
+
+.trk-nav-content-3__chartbar__rightside > div {
+  margin-right: 15px;
+}
+
+.trk-nav-content-3__chartbar__rightside .btn {
+  border: 1px solid #333;
+}
+
+.trk-nav-content-3__chartbar__rightside > svg {
+  cursor: pointer;
+}
+
+.trk-nav-content-3__daterange--body {
+  margin-top: 10px;
+}
+
+.trk-nav-content-3__daterange {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.trk-nav-content-3__daterange span {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.trk-nav-content-3__daterange__left {
+  display: flex;
+  align-items: center;
+}
+
+.trk-nav-content-3__daterange__left input[type='text'],
+select {
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.trk-nav-content-3__daterange__right {
+  display: flex;
+  align-items: center;
+}
+
+.trk-nav-content-3__daterange__right button {
+  background-color: #9cc139; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  outline: none;
+
+}
+
+.trk-nav-content-3__searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.trk-nav-content-3__searchbar button {
+  border: 1px solid #555;
+  border-radius: 5px;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+}
+.trk-nav-content-3__searchbar button:hover {
+  background-color: #9cc139;
+  color: #fff;
+  border: 1px solid #9cc139;
+}
+
+.trk-nav-content-3__searchbar input[type='text'],
+select {
+  padding: 5px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.trk-nav-content-3__searchbar__middle {
+  display: flex;
+  align-items: center;
+}
+.trk-nav-content-3__searchbar__middle--toggle,
+.trk-nav-content-3__searchbar__middle--showhide,
+.trk-nav-content-3__searchbar__right {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.trk-nav-content-3__searchbar__middle--toggle > svg,
+.trk-nav-content-3__searchbar__middle--showhide > svg,
+.trk-nav-content-3__searchbar__right > svg {
+  margin-left: 5px;
+}
+
+.trk-nav-content-3__table--scroll {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.trk-nav-content-3__table {
+  width: 100%;
+}
+
+.trk-nav-content-3__table th {
+  font-size: 13px;
+  background: white;
+  top: 0;
+  position: sticky;
+  text-align: left;
+}
+
+.trk-nav-content-3__table th,
+.trk-nav-content-3__table td {
+  padding: 10px;
+}
+
+.trk-nav-content-3__table--col-1 {
+  width: 30%;
+}
+
+.trk-nav-content-3__table--col-2,
+.trk-nav-content-3__table--col-3,
+.trk-nav-content-3__table--col-4,
+.trk-nav-content-3__table--col-5 {
+  width: 17.5%;
+}
+
+.trk-nav-content-3__table tr :nth-child(2),
+.trk-nav-content-3__table tr :nth-child(3),
+.trk-nav-content-3__table tr :nth-child(4),
+.trk-nav-content-3__table tr :nth-child(5),
+.trk-nav-content-3__table tr :nth-child(6) {
+  text-align: center;
+}
+
+
+
 /* =======================================
 nav content-4 (REVIEWS) style start 
 ========================================== */
 
 .marginbottom {
   margin-top: 200px;
+}
+
+.horizontal-line {
+  border: 1px solid red;
 }
